@@ -1,0 +1,389 @@
+body{
+    font-family: 'Montserrat', sans-serif;         
+	margin:50px;
+	color:black;
+	background:rgba(238, 238, 238, 0.555);
+	
+}
+
+#logocoursify{
+    float: top;    
+    display:grid;
+    margin-bottom: 40px;
+}
+
+#coursify{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    font-style: bold;
+    color:#1ABC9C;
+    font-size: 25px;
+    margin-bottom: 20px;
+	letter-spacing: 0.5px;
+}
+
+#bemvindo{
+    font-family: 'Montserrat', sans-serif;    
+    line-height: 1px;
+    font-size: 20px;
+	letter-spacing: 0.5px;
+}
+
+#subtext{
+	font-family: 'Montserrat', sans-serif;   
+    margin-bottom: 20px;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+}
+
+/**********************************Form**********************************/
+
+*,:after,:before{
+    box-sizing:border-box;
+    border-radius: 40px;
+	
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+	
+}
+
+#cad, #log{
+font-family: 'Montserrat', sans-serif; 
+font-weight: 600;
+font-size: 22px; 
+font-style: bold;
+text-align: left;
+line-height:50px;
+border-bottom: 4px solid #1ABC9C;
+border-radius: 0;
+color: #333333;
+opacity: 1;
+
+}
+
+
+.login-wrap{
+    font-family: 'Montserrat', sans-serif;  
+	width:100%;
+	margin:auto;
+	max-width:550px;
+	min-height:700px;
+	position: relative;	
+    float:left;
+    left: 300px;    
+	box-shadow: 0px 0px 10px #3333331F;
+
+}
+
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:30px 30px 30px 30px;
+	background:#FFFFFF;
+}
+
+.login-html .sign-in-htm,.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;		
+	transition:all .5s linear;
+}
+
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	font-family: 'Raleway', sans-serif; 
+    font-style: bold;
+    font-size: 22px;
+    font-weight: 600;
+	letter-spacing:1px;
+
+    
+}
+
+.login-html .tab{ 
+    position: relative;
+	font-size: 20px;
+    font-weight: 600;
+	margin-right: 15px;
+	padding-bottom: 5px;
+	margin: 0 15px 10px 0;
+	display: inline-block;
+	text-decoration: underline 4px solid #1ABC9C;
+    text-transform: uppercase;	
+    cursor: pointer;
+    
+}
+
+.login-html .sign-in + .tab,
+.login-html .sign-up + .tab{
+	color:black;
+	  
+}
+
+.login-form{
+	min-height: 345px;
+	position: relative;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+
+.login-form .group{
+	margin-bottom:15px;
+}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width: 100%;
+	color:#fff;
+	display: block;
+	
+}
+
+.login-form .group .button{
+	top: 582px;
+	left: 232px;
+	width: 160px;
+	height: 40px;	
+	background: #1ABC9C 0% 0% no-repeat padding-box;
+	box-shadow: 0px 0px 6px #3333330F;
+	border-radius: 8px;
+	opacity: 1;
+	align-items: center;
+	
+}
+
+.login-form .group .input,
+.login-form .group .button{
+	border: none;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    color: black;
+	padding: 10px 10px;
+	border-radius: 8px;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px 0px 6px #3333330F;
+	background:rgb(255, 254, 254);
+    
+}
+
+.login-form .group input[data-type="password"]{
+	text-security: circle;
+	-webkit-text-security: circle;
+}
+
+.login-form .group .label{
+	color:rgb(255, 255, 255);
+	font-size:12px;
+}
+
+.login-form .group .button{
+	background:#1ABC9C;
+    cursor: pointer;
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: -100px;
+	
+}
+
+.login-form .group .icon{
+	width:15px;
+	height:15px;
+	border-radius:8px;
+	position:fixed;
+	display:inline-block;
+	background:rgb(255, 255, 255);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;	
+}
+
+.foot-lnk{
+    font-weight: 300;
+    font-size: 14px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+    color: black;
+	top: 692px;
+	height: 28px;			
+}
+
+/*********************************Form boxes********************************/
+
+#user, #pass, #email{
+	top: 357px;
+	left: 70px;
+	width: 484px;
+	height: 35px;
+	opacity: 1;
+}
+
+#newpass{
+	cursor: pointer;
+	float: left;
+}
+
+#icon{
+	top: 536px;
+	left: 140px;
+	width: 12px;
+	height: 6px;	
+	opacity: 1;
+}
+
+#tel1{
+	top: 522px;
+	left: 70px;
+	width: 97px;
+	height: 35px;
+	opacity: 1;
+	background: url('./icon-chevron-down.svg') 80% 50% no-repeat padding-box;
+}
+
+#tel2{
+	top: 522px;
+	left: 172px;
+	width: 382px;
+	height: 35px;
+	opacity: 1;
+	
+}
+
+#fonenumber{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#submitbuttons{
+	display: grid;	
+	justify-content: center;
+	
+}
+
+
+/**********************************Carousel Images**********************************/
+
+.trs{
+    animation-name: movingImg, movingImg2;  
+    animation-duration: 5s; 
+    animation-delay: 4s;     
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+    
+}  
+
+#slider{
+    position: relative; 
+    float: right;
+    z-index: 1;
+    right: 900px;
+    top: 100px;
+}
+
+#slider a{ 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+.ativo{
+    opacity: 1!important; 
+    filter:alpha(opacity=100)!important;
+}
+
+
+.bola1 {
+    border-radius: 50%;    
+    top: 700px;
+	left: 1265px;
+	width: 12px;
+	height: 12px;    
+    background-color: #A8B4B1;
+	position: fixed;
+	display:inline-block;
+	animation-name: ballgreen;  
+    animation-duration: 5s; 
+    animation-delay: 4s;     
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+	
+}
+
+.bola2 {
+    border-radius: 50%;    
+    top: 700px;
+	left: 1280px;
+	width: 12px;
+	height: 12px;    
+    background-color: #1ABC9C;
+	position: fixed;
+	display:inline-block;
+	animation-name: ballgray;  
+    animation-duration: 2s; 
+    animation-delay: 5s;     
+    animation-iteration-count: infinite;       	
+	
+}
+
+@keyframes movingImg {
+    100% {
+      transform: translate(50px, 40px);
+      opacity: 100%;
+      
+    }
+  }
+
+@keyframes movingImg2 {
+     
+    0% {
+        transform: translate(0, 0);
+        opacity: 0%;
+        
+    } 
+}	
+	
+@keyframes ballgreen {
+	10% {
+		background-color: #A8B4B1;
+	}
+	50% {
+		background-color: #1ABC9C;
+	}
+	100% {
+		background-color: #1ABC9C;
+	}
+}
+	
+@keyframes ballgray {
+	10% {
+		background-color: #1ABC9C;
+	}
+	50% {
+		background-color: #A8B4B1;
+	}
+	100% {
+		background-color: #A8B4B1;
+	}
+}	
+

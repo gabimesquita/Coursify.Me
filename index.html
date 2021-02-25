@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coursify.Me Enterprise</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">  
+
+</head>
+<body>   
+    
+<!--------Form Header Info-------------------------------------------------------------------------------------------------------->
+
+    <div class="login-wrap">
+        <div class="login-html">
+            <img id="logocoursify" src="logo.svg">
+
+    <h2 id="bemvindo">Seja bem vindo ao</h2>
+    <h1 id="coursify">Coursify.Me Enterprise</h1>
+
+    <p id="subtext">Although the bobcat is rarely seen, it is the most common wildcat in North America.</p>   
+    
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><a href="#" onClick="mostrar('sign-in-htm')" id="log">Login</a>   
+    <input id="tab-2" type="radio" name="tab" class="sign-up"><a href="#" onClick="mostrar('sign-up-htm')" id="cad">Cadastro</a>    
+
+<!--------Form Register---------------------------------------------------------------------------------------------------------->
+
+    <div class="login-form">
+
+        <div id="sign-in-htm" class="hidden">
+            <div class="group">                        
+                <input id="user" type="text" class="input" placeholder="E-mail">
+            </div>
+        <div class="group">                        
+            <input id="pass" type="password" class="input" data-type="password" accesskey="S" placeholder="Senha">
+        </div>
+        <div class="group">
+            <input id="check" type="checkbox" class="check" checked>
+        <div class="foot-lnk">
+            <a id="newpass">Esqueci minha senha</a>
+        </div>
+        </div>
+        <div class="group" id="submitbuttons">
+            <input type="submit" class="button" value="Login">
+        </div>
+            <div class="hr"></div> 
+            <div class="foot-lnk">
+                <label for="tab-3">2020 © Coursify.Me. Todos os direitos reservados</a>
+            </div>                   
+        </div>
+
+<!--------Form Login------------------------------------------------------------------------------------------------------------>
+
+    <div id="sign-up-htm" class="hidden" style="display:none">
+
+    <div class="group">        
+    <input id="user" type="text" class="input" placeholder="Nome da Escola">
+        </div>
+        <div class="group">
+            <input id="email" type="text" class="input" data-type="mail" placeholder="Seu e-mail">
+        </div>
+        <div class="group">
+            <input id="pass" type="password" class="input" data-type="password" accesskey="S" placeholder="Crie uma senha">
+        </div>
+        <div class="group" id="fonenumber">
+            <input id="tel1" type="text" class="input" placeholder="+55">
+            <input id="tel2" type="fone" class="input" placeholder="00 00000-0000">
+        </div>
+        <div class="group" id="submitbuttons">
+            <input type="submit" class="button" value="Cadastrar">
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+            <label for="tab-4" id="foot">2020 © Coursify.Me. Todos os direitos reservados</a>
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------Carousel Images-------------------------------------------------------------------------------------------------------->
+
+<figure>
+    <span class="trs next"></span>
+    <span class="trs prev"></span> 
+    <div id="slider">    
+        <a class="trs"><img src="./image_01.svg"></a>
+        <a class="trs"><img src="./image_02.svg"></a>    
+    </div> 
+    <figcaption></figcaption>
+ </figure>
+
+<div class="bola1"></div>
+<div class="bola2"></div>
+
+
+<!--------Script----------------------------------------------------------------------------------------------------------------->
+
+<script src="script.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+</body>
+</html>
