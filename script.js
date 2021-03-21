@@ -36,7 +36,7 @@ function setImage() {
         settings.primeiraImg();
       }
 
-      intervalo = setInterval(settings.slide, 4000);
+      intervalo = setInterval(settings.slide, 6000);
     },
 
     //------------Previous Image----------------------------------------------------------------
@@ -55,7 +55,7 @@ function setImage() {
         this.legenda(elemento);
       }
 
-      intervalo = setInterval(settings.slide, 4000);
+      intervalo = setInterval(settings.slide, 6000);
     },
 
     legenda: function (obj) {
@@ -70,7 +70,7 @@ function setImage() {
 
   //------------Set Slide Time-----------------------------------------------------------------
 
-  var intervalo = setInterval(settings.slide, 4000);
+  var intervalo = setInterval(settings.slide, 6000);
   document
     .querySelector(".next")
     .addEventListener("click", settings.proximo, false);
