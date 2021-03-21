@@ -7,4 +7,4 @@
 <p>Link para o site: https://gabimesquita.github.io/Coursify.Me/</p>
 
 
-<img src="coursify.png">
+<img src="coursify1.png">
