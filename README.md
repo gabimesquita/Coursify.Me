@@ -15,6 +15,8 @@
 
 <p>2. Caso não possua cadastro ainda, clique em Cadastro e coloque suas informações.</p>
 
+<p>2. Caso tenha esquecido sua senha, clique em Esqueci Minha Senha.</p>
+
 <h2>Licença</h2>
 
 <p>MIT (Massachusetts Institute of Technology)</p>
